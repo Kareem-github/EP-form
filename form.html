@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form EP</title>
+    <script>alert("welcome to Energia_page");</script>
+    <style>
+        h1{
+            border-radius: 4px;
+            background:rgb(240,240,180);
+            display:inline.block;
+            margin:0;
+            padding:5px;
+            text-align:center;
+        }
+        .links{
+            background-color: #003264;
+            border-radius: 7px;
+            color: #f0f0b4;
+            text-align: center;
+            padding: 8px;
+        }
+        a{
+            color: #f0f0b4;
+        }
+        .logo{
+            display: block;
+            margin-right: auto;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-bottom: 30px;
+        }
+        marquee{
+            margin-left: 40%;
+            margin-right: 40%;
+        }
+        fieldset{
+            border-radius: 4px;
+            color:rgb(0,50,100);
+            width=200px;
+            height=400px;
+            margin:20px;
+            background:rgb(240,240,180);
+            border:1px solid black;
+        }
+        label{
+            border-radius: 4px;
+            color:rgb(0,50,100);
+            margin-bottom=10px;
+            display:block;
+            }
+        legend{
+            display: block;
+            padding-inline-start: 2px;
+            padding-inline-end: 2px;
+        }
+        body fieldset legend {
+            border: 1px;
+            color: white;
+            background-color: #003264;
+            padding: 7px;
+            border-radius: 3px;
+        }
+        input[type=text] {
+            width: 40%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        div.text{
+            color:white;
+            border:2px solid black;
+            background:rgb(0,50,100);
+            text-align: center;
+            margin-right: 30%;
+            margin-left: 30%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Energia Powered Form</h1>
+    </div>
+    <div class="links">
+        <a href="https://www.facebook.com/Energia.Powered/" target=(_blank)>Facebook</a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=" http://www.energiapowered.com/" target=(_blank) >Google</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=" https://www.instagram.com/energia.powered/" target=(_blank) >Instagram</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://mobile.twitter.com/Energia_Powered" target=(_blank) >Twitter</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="https://m.youtube.com/channel/UCxNgZOJJx9LzqWLhCEu8Djw" target=(_blank) >YouTube</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>phone number :01148762666</span>
+    </div>
+    <br>
+    <img class="logo" src="WhatsApp Image 2020-09-18 at 4.52.52 PM.jpeg" width=200 height=200/>
+    <marquee>
+        <p>
+            <b>Energia Powered - Members Recruitment</b>
+        </p>
+    </marquee>
+    <fieldset>
+        <legend>Instactor Information:</legend>
+        ‏‎Organizer‎ for Egypt Career Summit‎‏
+        <br>
+        ‏‎Host for Eng break‎‏
+        ‏<br>
+        ‏‎social media marketing member for ‏‎Eng break‎‏
+        ‏<br>
+        ‏‎Facilitator ‎for ‏Athar - أثـر‏
+        ‏<br>
+        ‏‎Head cot 24‎‏ for ‏‎DOSS CUFE - Developing Organized Students' Society‎‏
+        ‏<br>
+        ‏‎former participant‎‏ for ‏‎Eng break‎‏
+        <br>
+        ‏‎Former PR member‎‏ for ‏‎DOSS CUFE - Developing Organized Students' Society‎‏
+        </fieldset>
+    <hr>
+    <h2>Register Now!</h2>
+    <form>
+        <fieldset name="register">
+            <legend>your Personal Information</legend>
+        
+        
+                <label for="fname"><i></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Kareem Sobhi">
+                <label for="email"><i></i> Email</label>
+                <input type="text" name="email" placeholder="Kareem@example.com">
+                <label for="adr">Address</label>
+                <input type="text" name="address" placeholder="542 W. 15th Street">
+                <label for="city"></i> University</label>
+                <input type="text" name="city" placeholder="Cairo">
+        
+        
+        <label>Faculty</label>
+        <input  type="text" name="faculty"/> 
+        <br/>
+        <label>Department</label>
+        <input  type="text" name="department"/> 
+        
+        <br/>
+        <select name="gender">
+        <label>Gender</label>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select>
+        
+        </fieldset>
+        
+        <hr>
+        <fieldset>
+        <legend>Your Course</legend>
+        
+        <label>Choose one course</label>
+        <input type="radio" name="course">Python <br>
+        <input type="radio" name="course">Ardunio <br>
+        
+        <label>Date you want :</label>
+        <input type="date"><br>
+        
+        
+        <label>Choose course time</label>
+        <input type="radio" name="time"> 3.00 PM <br>
+        <input type="radio" name="time"> 6.00 PM<br>
+        other : <input type="time"><br>
+        
+        </fieldset>
+        <hr>
+        <fieldset>	
+        <legend>Your Message</legend>
+        <label>Your Comment</label>
+        <textarea rows=10 cols=40></textarea> <br>
+        
+        <input type="checkbox">
+        <input type="submit" onclick="window.alert(you must to enter the information befor submit );">
+        
+        </fieldset>
+        
+        <hr>
+        </form>
+        <div class="text">"  Never stop learning, because life never stops teaching "  </div>
+</body>
+</html>
